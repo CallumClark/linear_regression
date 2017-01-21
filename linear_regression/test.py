@@ -75,8 +75,13 @@ def run():
 ##	plt.scatter(x1, y1)
 ##	plt.plot(x1, x1*m + b)
 ##	plt.show()
+	
+	plt.scatter(points[:,0], points[:, 1])
+	plt.plot(points[:, 0], m * points[:, 0] + b)
+	plt.show()
 
 
+	
 
 if __name__ == '__main__':
 	run()
